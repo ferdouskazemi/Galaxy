@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { useState } from 'react';
+import { JSX, useState } from 'react';
 import { useGalaxyStore } from '@/hooks/useGalaxy';
 
 export default function LiveFeed(): JSX.Element {
