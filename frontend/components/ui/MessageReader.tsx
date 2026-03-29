@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { useMemo, useState } from 'react';
+import { JSX, useMemo, useState } from 'react';
 import {
   formatRelativeTime,
   getVisualProfile,

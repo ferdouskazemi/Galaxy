@@ -3,7 +3,7 @@
 import { OrbitControls, Stars } from '@react-three/drei';
 import { Canvas, ThreeEvent, useFrame, useThree } from '@react-three/fiber';
 import { Bloom, DepthOfField, EffectComposer } from '@react-three/postprocessing';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { JSX, useEffect, useMemo, useRef, useState } from 'react';
 import {
   AdditiveBlending,
   DoubleSide,

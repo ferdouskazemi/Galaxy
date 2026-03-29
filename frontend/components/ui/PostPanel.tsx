@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { useEffect, useMemo, useState } from 'react';
+import { FormEvent, JSX, useEffect, useMemo, useState } from 'react';
 import { getPreviewBody } from '@/lib/astronomy';
 import { useGalaxyStore } from '@/hooks/useGalaxy';
 

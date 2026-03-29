@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { trimMessagePreview } from '@/lib/astronomy';
 import { useGalaxyStore } from '@/hooks/useGalaxy';
+import { JSX } from 'react';
 
 export default function StatsBar(): JSX.Element {
   const stats = useGalaxyStore((state) => state.stats);

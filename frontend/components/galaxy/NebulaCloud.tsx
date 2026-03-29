@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo } from 'react';
+import { JSX, useEffect, useMemo } from 'react';
 import {
   AdditiveBlending,
   BufferAttribute,
