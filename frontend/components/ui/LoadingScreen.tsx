@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { JSX } from 'react';
 
 export default function LoadingScreen(): JSX.Element {
   return (
